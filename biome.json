@@ -31,13 +31,6 @@
         "useConsistentCurlyBraces": {
           "fix": "safe",
           "level": "error"
-        },
-        "useSortedClasses": {
-          "level": "error",
-          "options": {
-            "attributes": ["classList"],
-            "functions": ["clsx", "cva", "tw", "tv"]
-          }
         }
       },
       "correctness": {
