@@ -46,7 +46,11 @@ export function TimerDisplay({
               isTimerPaused ? 'opacity-100' : 'opacity-0'
             )}
           >
-            {isBreak ? 'Descansando' : isTimerPaused ? 'Pausado' : ''}
+            {isBreak
+              ? 'Descansando'
+              : isTimerPaused
+                ? 'Pausado'
+                : 'Trabalhando'}
           </small>
         </div>
 
